@@ -18,7 +18,7 @@ export default function HeroSection({setScrollToCategories}) {
     };
 
     return (
-    <div className="z-25">
+    <div id="hero" className="z-25">
 
         <div className="bg-background bg-cover bg-no-repeat bg-center 
              w-full h-full absolute z-[-1] hidden tablet-s:flex"></div>
@@ -36,12 +36,12 @@ export default function HeroSection({setScrollToCategories}) {
                 </h1>
                 <p className="text-[1.5rem] font-[500] mt-[3rem] pr-6 pl-4
                 tablet-s:text-[1.1rem] tablet-s:mt-[2rem] tablet-s:px-[3rem]">
-                Residential Construction. From drafting to 3d design to final insepction. There for your project concept to completion.
+                Residential Construction. From drafting to 3d design to final inspection. There for your project concept to completion.
                 </p>
             </div>
             
             <div className="h-[28rem] w-[22rem] tablet-s:hidden">
-                <Image width={100} height={100} layout="responsive" alt="Schoolland" src="/images/schoolland.png"></Image>
+                <Image width={100} height={100} layout="responsive" alt="Tim and Greg Schoolland" src="/images/owners.png"></Image>
             </div>
        
         </div>

@@ -1,11 +1,67 @@
 const categories = [
-    { text: "Kitchens", images: ["/images/kitchen2.jpg", "/images/kitchen3.jpg", "/images/kitchen4.jpg", "/images/kitchen6.jpg", "/images/kitchen7.jpg", "/images/kitchen8.jpg"] },
-    { text: "Bathrooms", images: ["/images/bathroom1.jpg", "/images/bathroom2.jpg", "/images/bathroom3.jpg", "/images/bathroom4.jpg"]},
-    { text: "Outdoor", images: ["/images/outdoor2.jpg", "/images/outdoor3.jpg", "/images/outdoor7.jpg", "/images/outdoor5.jpg", "/images/outdoor4.jpg"] },
-    { text: "Fireplaces", images: ["/images/fireplace1.jpg", "/images/fireplace2.jpg", "/images/fireplace3.jpg", "/images/fireplace4.jpg"] },
-    { text: "Closets", images: ["/images/closet1.jpg", "/images/closet2.jpg", "/images/closet3.jpg", "/images/closet4.jpg"] },
-    { text: "New Homes", images: ["/images/house1.jpg", "/images/house2.jpg", "/images/house3.jpg", "/images/house4.jpg", "/images/house5.jpg", "/images/house6.jpg"] }, 
-    { text: "Other", images: ["/images/additions1.jpg", "/images/additions2.jpg", "/images/additions3.jpg", "/images/additions4.jpg"] }, 
-];
+    {
+        "text": "Kitchens",
+        "images": [
+            "/Kitchens/kitchen8.jpg",
+            "/Kitchens/kitchen2.jpg",
+            "/Kitchens/kitchen4.jpg",
+            "/Kitchens/kitchen5.jpg",
+            "/Kitchens/kitchen7.jpg"
+        ]
+    },
+    {
+        "text": "Bathrooms",
+        "images": [
+            "/Bathrooms/bathroom2.jpg",
+            "/Bathrooms/bathroom1.jpg",
+            "/Bathrooms/bathroom4.jpg",
+            "/Bathrooms/bathroom3.jpg"
+        ]
+    },
+    {
+        "text": "Outdoor",
+        "images": [
+            "/Outdoor/outdoor1.jpg",
+            "/Outdoor/outdoor4.jpg",
+            "/Outdoor/outdoor5.jpg",
+            "/Outdoor/outdoor7.jpg",
+            "/Outdoor/outdoor2.jpg"
+        ]
+    },
+    {
+        "text": "Fireplaces",
+        "images": [
+            "/Fireplaces/fireplace1.jpg",
+            "/Fireplaces/fireplace4.jpg",
+            "/Fireplaces/fireplace2.jpg",
+            "/Fireplaces/fireplace3.jpg"
+        ]
+    },
+    {
+        "text": "Closets",
+        "images": [
+            "/Closets/closet4.jpg",
+            "/Closets/closet2.jpg",
+            "/Closets/closet1.jpg"
+        ]
+    },
+    {
+        "text": "New Homes",
+        "images": [
+            "/New Homes/house5.jpg",
+            "/New Homes/house4.jpg",
+            "/New Homes/house3.jpg"
+        ]
+    },
+    {
+        "text": "Other",
+        "images": [
+            "/Other/additions1.jpg",
+            "/Other/additions2.jpg",
+            "/Other/additions4.jpg",
+            "/Other/additions3.jpg"
+        ]
+    }
+]
 
 export default categories;

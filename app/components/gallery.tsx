@@ -30,9 +30,18 @@ export default function Gallery() {
 
     function Images({ image }: { image: string }) {
         return (
-            <Image src={image} width={200} height={200} className="w-[27rem] tablet-s:w-[47%] rounded-xl" alt="Gallery Image" />
+            <Image 
+                src={image} 
+                width={600}  
+                height={600} 
+                quality={50} 
+                placeholder='empty'
+                className="w-[27rem] tablet-s:w-[47%] rounded-xl" 
+                alt="Gallery Image" 
+            />
         );
     }
+    
 
     function CategorySection({ category, index }: { category: { text: string; images: string[] }; index: number }) {
         const { text, images } = category;

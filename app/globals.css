@@ -36,6 +36,10 @@ h1 {
   text-align: center;
 }
 
+#shadow-host-companion {
+	  display: none;
+}
+
 .custom-gradient {
     background-image: linear-gradient(to right, #FF3131, #FFB648);
     -webkit-background-clip: text;

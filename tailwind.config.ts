@@ -14,7 +14,8 @@ const config: Config = {
       accent: "#182C25",
       dark: "#1E1E1E",
       hover: "#dedede",
-      background: "#2B4C3B"   
+      background: "#2B4C3B",
+         
     },
 
     screens: {

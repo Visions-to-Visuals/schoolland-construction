@@ -1,0 +1,65 @@
+[
+    {
+        "text": "Kitchens",
+        "images": [
+            "/Kitchens/kitchen8.jpg",
+            "/Kitchens/kitchen2.jpg",
+            "/Kitchens/kitchen4.jpg",
+            "/Kitchens/kitchen5.jpg",
+            "/Kitchens/kitchen7.jpg"
+        ]
+    },
+    {
+        "text": "Bathrooms",
+        "images": [
+            "/Bathrooms/bathroom2.jpg",
+            "/Bathrooms/bathroom1.jpg",
+            "/Bathrooms/bathroom4.jpg",
+            "/Bathrooms/bathroom3.jpg"
+        ]
+    },
+    {
+        "text": "Outdoor",
+        "images": [
+            "/Outdoor/outdoor1.jpg",
+            "/Outdoor/outdoor4.jpg",
+            "/Outdoor/outdoor5.jpg",
+            "/Outdoor/outdoor7.jpg",
+            "/Outdoor/outdoor2.jpg"
+        ]
+    },
+    {
+        "text": "Fireplaces",
+        "images": [
+            "/Fireplaces/fireplace1.jpg",
+            "/Fireplaces/fireplace4.jpg",
+            "/Fireplaces/fireplace2.jpg",
+            "/Fireplaces/fireplace3.jpg"
+        ]
+    },
+    {
+        "text": "Closets",
+        "images": [
+            "/Closets/closet4.jpg",
+            "/Closets/closet2.jpg",
+            "/Closets/closet1.jpg"
+        ]
+    },
+    {
+        "text": "New Homes",
+        "images": [
+            "/New Homes/house5.jpg",
+            "/New Homes/house4.jpg",
+            "/New Homes/house3.jpg"
+        ]
+    },
+    {
+        "text": "Other",
+        "images": [
+            "/Other/additions1.jpg",
+            "/Other/additions2.jpg",
+            "/Other/additions4.jpg",
+            "/Other/additions3.jpg"
+        ]
+    }
+]

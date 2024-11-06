@@ -40,7 +40,7 @@ export default function Home() {
             <HeroSection setScrollToCategories={setScrollToCategories}></HeroSection>
             <div className="flex justify-center">
               <Image width={500} height={500} alt="Timothy Schoolland" className="hidden z-[-1] absolute bottom-0 tablet-s:w-[21rem] mobile:w-[24rem] tablet-s:inline-block" 
-              src="/images/TimothyTransparent.png">
+              src="/images/ownersTransparent.png">
               </Image>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
       ) : (
         <>
         <Background></Background>
-          <div className="min-h-screen">
+          <div className="">
           <Navbar></Navbar>
             <HeroSection setScrollToCategories={setScrollToCategories}></HeroSection>
           </div>

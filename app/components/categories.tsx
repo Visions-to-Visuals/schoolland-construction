@@ -149,18 +149,22 @@ export default function Categories({ scrollToCategories }) {
       if (scrolled > scrolledY) {
         scrolledY = scrolled;
       }
+      // subtract the hight of the section with id "hero" from the scrolled value
+      // get the element with the id "hero"
+      const hero = document.getElementById("hero");
       // make sure the center line does not go past the bottom of its parent
-      if (scrolledY > 0) {
-        scrolledY = 0;
+      let displayedScrolledY = scrolledY + this.window.innerHeight - hero.clientHeight
+      if (displayedScrolledY > 0) {
+        displayedScrolledY = 0;
       }
       if (centerLineRef.current) {
         (
           centerLineRef.current as HTMLDivElement
-        ).style.transform = `translateY(${scrolledY}px)`;
+        ).style.transform = `translateY(${displayedScrolledY}px)`;
       }
       if (centerLineRef.current) {
         const centerLine = centerLineRef.current as HTMLDivElement;
-        centerLine.style.transform = `translateY(${scrolledY}px)`;
+        centerLine.style.transform = `translateY(${displayedScrolledY}px)`;
 
         const rect = centerLine.getBoundingClientRect();
         const centerLineBottomPosition = rect.bottom;
