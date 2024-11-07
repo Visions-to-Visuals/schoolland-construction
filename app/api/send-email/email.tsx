@@ -4,6 +4,7 @@ AWS.config.update({
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 });
+console.log('AWS_ACCESS_KEY_ID:', process.env.AWS_ACCESS_KEY_ID)
 const ses = new AWS.SES();
 
 const sendEmail = async (toAddress: any, subject: any, body: any) => {
