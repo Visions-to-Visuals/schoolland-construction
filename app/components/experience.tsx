@@ -6,13 +6,13 @@ export default function Experience() {
     function ExperienceItem({ text, year, image }) {
         return (
             <div className='flex justify-center mx-auto gap-[5rem] items-start tablet-s:gap-[2rem] mobile:gap-[3rem]  top-[5rem] z-10 tablet-s:flex-col tablet-s:items-center tablet-s:top-[7rem] mobile:top-[8rem]'>
-                <Image src={image} width={500} height={500} alt='Photo' className='w-[30rem] aspect-[3/2] rounded-[2rem] tablet-s:w-[18rem] tablet-s:rounded-[1.5rem] mobile:w-[20rem]'></Image>
-                <Image src="/images/circle.png" width={300} height={300} alt='Photo' className='w-[5rem] h-[5rem] rounded-[2rem] tablet-s:z-[10] tablet-s:hidden'></Image>
+                <Image src={image} width={500} height={500} alt='Photo' className='w-[30rem] aspect-[3/2] rounded-[2rem] tablet-s:w-[18rem] tablet-s:rounded-[1.5rem] mobile:w-[20rem] object-cover'></Image>
+                <Image src="/images/circle.png" width={300} height={300} alt='Photo' className='w-[5rem] h-[5rem] rounded-[2rem] tablet-s:z-[10] tablet-s:hidden object-cover'></Image>
                 <div className='flex-col w-[30rem] text-primary bg-accent px-[2rem] tablet-s:px-[1rem] py-[1rem] rounded-[2rem] tablet-s:w-[26rem] mobile:w-[24rem] laptop-s:z-[20]'>
                     <h2 className='text-[3rem] font-[600] tracking-widest tablet-s:text-center tablet-s:text-[2rem] mobile:mb-2'>{year}</h2>
                     <p className='text-[1.2rem] tablet-s:text-[.9rem] tablet-s:text-center tablet-s:mb-4'>{text}</p>
                 </div>
-                <Image src="/images/circle.png" width={300} height={300} alt='Photo' className='w-[5rem] h-[5rem] rounded-[2rem] tablet-s:z-[10] hidden tablet-s:flex'></Image>
+                <Image src="/images/circle.png" width={300} height={300} alt='Photo' className='w-[5rem] h-[5rem] rounded-[2rem] tablet-s:z-[10] hidden tablet-s:flex object-cover'></Image>
             </div>
         )
     }
@@ -33,7 +33,7 @@ export default function Experience() {
                     />
                 ))}
             </div>
-            <Image width={400} height={400} alt='background' src="/images/floorplan.png" className="absolute top-0 left-0 h-[100%] w-[100%] opacity-20 z-[0] pointer-events-none" />
+            <Image width={400} height={400} alt='background' src="/images/floorplan.png" className="absolute top-0 left-0 h-[100%] w-[100%] opacity-20 z-[0] pointer-events-none object-cover" />
         </section>
     )
 }
