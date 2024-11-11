@@ -54,9 +54,17 @@ export default function Team() {
 
     const team = [
         { name: "Timothy Schoolland", image: "/images/team3.png" },
-        { name: "Levi Sawyer", image: "/images/team1.png" },
-        { name: "Ben", image: "/images/team2.png" },
         { name: "Greg Schoolland", image: "/images/team4.png " },
+        { name: "Ben Kelly", image: "/images/team2.png" },
+        { name: "Wayne Moret", image: "/images/team5.png " },
+        { name: "Tim Enserink", image: "/images/team6.png " },
+        { name: "Jason Scuiling", image: "/images/team7.png " },
+        { name: "Levi Sawyer", image: "/images/team1.png" },
+        { name: "Luke Schoolland", image: "/images/team8.png" },
+
+
+
+
     ];
 
     return (
