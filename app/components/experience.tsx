@@ -20,10 +20,10 @@ export default function Experience() {
     return (
         <section className="px-[2rem] mobile:px-[1rem] relative">
             <h1 className="text-primary tracking-wide mb-[2rem]">INTRODUCING OVER 50 YEARS OF EXPERIENCE</h1>
-            <h1 className="text-primary tracking-wide mb-20 text-3xl text-center max-w-[1200px] mx-auto">For three generations the Schoolland family has worked together in residential construction.  Working in the central valley to build structures that families love to call home.</h1>
+            <h1 className="text-primary tracking-wide mb-20 text-3xl text-center max-w-[1200px] mx-auto font-medium">For three generations the Schoolland family has worked together in residential construction.  Working in the central valley to build structures that families love to call home.</h1>
 
             <div className="flex justify-center">
-                <div className="w-[.8rem] bg-primary absolute top-[17rem] bottom-0 m-auto mx-0 tablet-s:top-[32rem] mobile:top-[32rem]"></div>
+                <div className="w-[.8rem] bg-primary absolute top-[17rem] bottom-0 m-auto mx-0 tablet-s:top-[30rem] mobile:top-[32rem]"></div>
             </div>
             <div className='flex flex-col gap-[10rem] mb-[5rem] laptop-s:mb-[10rem]'>
                 {experienceData.map((item, index) => (
