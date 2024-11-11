@@ -1,7 +1,7 @@
 // api/send-email/route.js
 // file for sending emails
 import sendEmail from "./email";
-const ADMIN_EMAIL = "bschoolland@gmail.com";
+const ADMIN_EMAIL = "schoollandinc@gmail.com";
 
 async function POST(request) {
   const body = await request.json();

@@ -15,17 +15,19 @@ const categories = [
             "/Bathrooms/bathroom2.jpg",
             "/Bathrooms/bathroom1.jpg",
             "/Bathrooms/bathroom4.jpg",
-            "/Bathrooms/bathroom3.jpg"
+            "/Bathrooms/bathroom3.jpg",
+            "/Bathrooms/bathroom5.jpg",
+
         ]
     },
     {
         "text": "Outdoor",
         "images": [
             "/Outdoor/outdoor1.jpg",
+            "/Outdoor/outdoor2.jpg",
+            "/Outdoor/outdoor3.jpg",
             "/Outdoor/outdoor4.jpg",
             "/Outdoor/outdoor5.jpg",
-            "/Outdoor/outdoor7.jpg",
-            "/Outdoor/outdoor2.jpg"
         ]
     },
     {
@@ -41,6 +43,7 @@ const categories = [
         "text": "Closets",
         "images": [
             "/Closets/closet4.jpg",
+            "/Closets/closet3.jpg",
             "/Closets/closet2.jpg",
             "/Closets/closet1.jpg"
         ]
@@ -50,7 +53,9 @@ const categories = [
         "images": [
             "/New Homes/house5.jpg",
             "/New Homes/house4.jpg",
-            "/New Homes/house3.jpg"
+            "/New Homes/house3.jpg",
+            "/New Homes/house1.jpg",
+
         ]
     },
     {
