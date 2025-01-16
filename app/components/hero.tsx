@@ -36,7 +36,7 @@ export default function HeroSection({setScrollToCategories}) {
                 </h1>
                 <p className="text-[1.5rem] font-[500] mt-[3rem] pr-6 pl-4
                 tablet-s:text-[1.1rem] tablet-s:mt-[2rem] tablet-s:px-[3rem]">
-                Residential Construction. From drafting to 3d design to final inspection. There for your project concept to completion.
+                Home builders serving Ripon, Modesto, Salida, and Manteca. From custom home design to expert remodeling, we bring 50+ years of construction excellence to every project.
                 </p>
             </div>
             
