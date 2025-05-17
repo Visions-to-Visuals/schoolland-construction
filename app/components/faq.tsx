@@ -8,6 +8,13 @@ import faqData from "./faq-data";
 export default function Faq() {
     const [showAnswer, setShowAnswer] = useState(new Array(faqData.length).fill(false));
 
+    // this page has been temporarily disabled, redirect to home page 
+    // TODO: discuss how to change this page and add it back in
+    useEffect(() => {
+        window.location.href = "/";
+    }, []);
+    return null;
+
     const toggleAnswer = (index: number) => {
         setShowAnswer((prevState) => {
             const newShowAnswer = [...prevState];

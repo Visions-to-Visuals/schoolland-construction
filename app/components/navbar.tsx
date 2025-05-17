@@ -54,7 +54,7 @@ export default function Navbar() {
                         <ul className="flex flex-col items-center justify-center gap-y-10 text-primary mt-[8rem] text-[1.2rem]">
                             <NavItem text="Home" page="/" />
                             <NavItem text="Project Gallery" page="/project-gallery" />
-                            <NavItem text="FAQ" page="/faq" />
+                            {/* <NavItem text="FAQ" page="/faq" />  TODO: discuss how to change this page and add it back in*/}
                             <NavItem text="Contact" page="#contact"/>
                         </ul>
                     </div> 
@@ -71,7 +71,7 @@ export default function Navbar() {
                     <ul className="flex flex-row items-center justify-center px-4 gap-x-8 text-primary text-[16px] laptop:text-[16px] laptop-s:text-[14px] tablet:text-[12px]">
                         <NavItem text="Home" page="/" />
                         <NavItem text="Project Gallery" page="/project-gallery" />
-                        <NavItem text="FAQ" page="/faq" />
+                        {/* <NavItem text="FAQ" page="/faq" /> TODO: discuss how to change this page and add it back in*/}
                         <NavItem text="Contact" page="#contact" />
                     </ul>
                 </nav>

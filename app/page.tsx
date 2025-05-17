@@ -39,9 +39,9 @@ export default function Home() {
           <div className="relative">
             <HeroSection setScrollToCategories={setScrollToCategories}></HeroSection>
             <div className="flex justify-center">
-              <Image width={500} height={500} alt="Timothy Schoolland" className="hidden z-[-1] absolute bottom-0 tablet-s:w-[21rem] mobile:w-[24rem] tablet-s:inline-block" 
+              {/* <Image width={500} height={500} alt="Timothy Schoolland" className="hidden z-[-1] absolute bottom-0 tablet-s:w-[21rem] mobile:w-[24rem] tablet-s:inline-block" 
               src="/images/ownersTransparent.png">
-              </Image>
+              </Image> */}
             </div>
           </div>
         </>
@@ -57,7 +57,7 @@ export default function Home() {
     }
       <Categories scrollToCategories={scrollToCategories}></Categories>
       <Experience></Experience>
-      <Team></Team>
+      {/* <Team></Team> TODO: discuss how/ if to change this section and add it back in */} 
       <Contact></Contact>
       <Footer></Footer>
 
