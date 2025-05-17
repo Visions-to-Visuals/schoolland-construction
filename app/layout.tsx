@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     title: 'Schoolland Construction - Premier Home Builders in Central Valley',
     description: '50+ years of construction excellence in Ripon, Modesto & San Joaquin County. Family-owned residential construction specializing in new homes and remodels.',
     images: [
-      {
-        url: '/images/owners.png',
-        width: 1200,
-        height: 630,
-        alt: 'Tim and Greg Schoolland - Schoolland Construction',
-      }
+      // {
+      //   url: '/images/owners.png',
+      //   width: 1200,
+      //   height: 630,
+      //   alt: 'Tim and Greg Schoolland - Schoolland Construction',
+      // }
     ],
   },
   robots: {
