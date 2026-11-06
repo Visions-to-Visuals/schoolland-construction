@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
 export default function Categories({ scrollToCategories }) {
-  const centerLineRef = useRef();
+  const centerLineRef = useRef(null);
   // when the scrollToCategories prop changes, increase the scroll position
   useEffect(() => {
     if (scrollToCategories) {
@@ -35,7 +35,7 @@ export default function Categories({ scrollToCategories }) {
     }
   }, [scrollToCategories]);
   // ref for the section
-  const sectionRef = useRef();
+  const sectionRef = useRef(null);
 
   let scrolledY = -999999;
   let lineBottom = -999999;
